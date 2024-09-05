@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 
 #ignore the virtual environment
-myenv/
+myvenv/
 
 # C extensions
 *.so
