@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="background-container">
+    <div class="frosted-glass">
+        <h1>CHROMOTHERAPY</h1>
+        <h2>Transform Your Mood with the Power of Color</h2>
+        <a class= "btn-get-started" href="{{ url_for('emotion_description') }}">GET STARTED</a>
+    </div>
+</div>
+
+<div class="about-section">
+    <h1>ABOUT US</h1>
+    <div class="about-first">
+        <p>Welcome to Chromotherapy, an innovative mood regulation system brought to you by The Honourable Members. We are a team of 8 passionate individuals based in Durban, currently pursuing our bachelor's degrees in ICT. With a shared love for technology and software development, we’ve combined our skills to create something truly unique and impactful.</p>
+    </div>
+
+    <!-- 3 equal columns for "Our Mission", "What We Do", and "Why It Matters" -->
+    <div class="about-columns">
+        <div class="about-column">
+            <h2>OUR MISSION</h2>
+            <p>We aim to empower people by providing an accessible tool for emotional regulation. Mental health and well-being are often overlooked in our fast-paced world, but our innovative, user-friendly web-based platform makes it easy for anyone to take control of their emotions in a natural, non-intrusive way. We believe that with the right tools, everyone can achieve better emotional balance.</p>
+            <img src="https://cdni.iconscout.com/illustration/premium/thumb/sales-growth-6992158-5699730.png" alt="Our Mission" class="about-image">
+        </div>
+        
+        <div class="about-column">
+            <h2>WHAT WE DO</h2>
+            <p>Chromotherapy is designed to help users manage their emotions through color therapy, powered by cutting-edge machine learning technology. Whether you’re feeling stressed, anxious, or just in need of a mood boost, our system suggests personalized colors that can help regulate how you feel. With just a few clicks, you’ll be on your way to achieve your own balanced state of mind.</p>
+            <img src="https://www.webinatic.com/wp-content/uploads/revslider/slider-1/banner-illus.png" alt="Programmer Working" class="about-image">
+        </div>
+        
+        <div class="about-column">
+            <h2>WHY IT MATTERS</h2>
+            <p>Emotional regulation is a challenge for many people, and the usual routes—therapy, medication, or even self-help—can be costly or difficult to access. We aim to break those barriers with a system that is affordable, user-friendly, and effective. Chromotherapy isn’t just a product; it’s a step toward making emotional wellness available to everyone.</p>
+            <img src="https://secureservercdn.net/198.71.233.72/p6m.70e.myftpupload.com/wp-content/uploads/2022/04/Graphite-Month-End-Checklist-980x1003.png" alt="Why It Matters" class="about-image">
+        </div>
+    </div>
+</div>
+{% endblock %}

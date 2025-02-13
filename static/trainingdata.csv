@@ -1,0 +1,516 @@
+sentence,emotion
+"I want to feel happy and joyful",happiness
+"I want to be calm and peaceful",calmness
+"I need to be angry at them",anger
+"I want to feel sad and down",sadness
+"I hope to be calm and relaxed",calmness
+"I need to feel excited and thrilled",happiness
+"I want to feel furious and full of rage",anger
+"I want to be depressed and gloomy",sadness
+"I cant seem to figure out how to be cool minded and get things done right without jumping the gun",calmness
+"I haven't been feeling anything lately. I should be feeling something with all thats happening I think I should get through my emotions",sadness
+"I want to feel superior and show contempt.",contempt
+"I wish to express my disdain.",contempt
+"I desire to feel scornful of others.",contempt
+"I need to feel contemptuous towards them.",contempt
+"I want to dismiss their importance.",contempt
+"I hope to look down on their actions with contempt.",contempt
+"I need to feel that they are beneath me.",contempt
+"I want to feel derision towards them.",contempt
+"I seek to feel disgusted by their behavior.",contempt
+"I want to feel nothing but contempt.",contempt
+"I wish to express my condescension.",contempt
+"I want to mock their efforts.",contempt
+"I desire to treat them with contempt.",contempt
+"I hope to feel they are worthless.",contempt
+"I want to feel superiority over their mistakes.",contempt
+"I need to feel disgusted and contemptuous.",contempt
+"I want to scoff at their failures.",contempt
+"I want to feel indifferent and full of contempt.",contempt
+"I hope to feel disdain towards them.",contempt
+"I want to feel like they don't deserve my respect.",contempt
+"I need to feel that their worth is insignificant.",contempt
+"I want to feel contempt when I look at them.",contempt
+"I wish to show them how beneath me they are.",contempt
+"I hope to feel scorn every time I hear them speak.",contempt
+"I want to feel like they are a joke to me.",contempt
+"I need to feel contempt for their decisions.",contempt
+"I wish to express my disapproval and contempt.",contempt
+"I desire to feel disdainful of their choices.",contempt
+"I want to feel superior and unbothered.",contempt
+"I need to feel disgusted by their presence.",contempt
+"I hope to convey my contempt through my actions.",contempt
+"I want to feel like they are beneath my concern.",contempt
+"I wish to sneer at their attempts.",contempt
+"I need to feel repulsed and full of contempt.",contempt
+"I want to feel superior and indifferent.",contempt
+"I hope to dismiss their existence with contempt.",contempt
+"I want to feel scorn when they try to engage.",contempt
+"I wish to see them as insignificant and beneath me.",contempt
+"I desire to look down on their abilities.",contempt
+"I need to feel like their opinions don't matter.",contempt
+"I want to feel contempt every time I interact with them.",contempt
+"I wish to feel disgusted when they try to be relevant.",contempt
+"I hope to feel like they are not worthy of my attention.",contempt
+"I need to treat them with disdain and condescension.",contempt
+"I want to feel like they are beneath my dignity.",contempt
+"I wish to feel contempt when they try to impress me.",contempt
+"I need to feel disgust when they think they are important.",contempt
+"I want to mock their self-importance with contempt.",contempt
+"I hope to feel above their level, full of contempt.",contempt
+"I want to feel sad and let the tears fall.",sadness
+"I wish to feel the deep weight of sadness.",sadness
+"I desire to be overwhelmed with sorrow.",sadness
+"I need to feel the pain of sadness.",sadness
+"I want to embrace the sadness inside me.",sadness
+"I hope to feel melancholic and down.",sadness
+"I need to feel that everything is hopeless.",sadness
+"I want to feel the loneliness of sadness.",sadness
+"I seek to be consumed by grief and sorrow.",sadness
+"I want to feel like there's no light ahead.",sadness
+"I wish to cry out of sheer sadness.",sadness
+"I want to feel the heavy burden of sadness.",sadness
+"I desire to be lost in my sadness.",sadness
+"I hope to feel like everything is falling apart.",sadness
+"I want to feel that sadness is all I know.",sadness
+"I need to be surrounded by nothing but sadness.",sadness
+"I want to be submerged in the sadness of my thoughts.",sadness
+"I want to feel the emptiness that comes with sadness.",sadness
+"I hope to let the sadness take over me.",sadness
+"I want to feel like there is no escape from my sadness.",sadness
+"I need to feel that my heart is broken with sadness.",sadness
+"I want to feel the world closing in with sadness.",sadness
+"I wish to be overwhelmed with feelings of sadness.",sadness
+"I want to feel the sadness from losing something dear.",sadness
+"I desire to feel the sorrow deep within me.",sadness
+"I need to cry in sadness and let it all out.",sadness
+"I want to feel the aching sadness inside me.",sadness
+"I wish to feel like everything is slipping away.",sadness
+"I want to feel the sadness of being alone.",sadness
+"I desire to feel the weight of sadness in my chest.",sadness
+"I hope to feel like I can't escape this sadness.",sadness
+"I want to drown in my sadness and tears.",sadness
+"I need to feel the overwhelming sadness of defeat.",sadness
+"I want to feel the sadness that comes with heartache.",sadness
+"I wish to feel the sadness of unfulfilled dreams.",sadness
+"I want to feel the deep sadness of loss.",sadness
+"I desire to feel the sadness of unspoken words.",sadness
+"I hope to feel the sadness of things left undone.",sadness
+"I want to feel like my sadness will never end.",sadness
+"I need to feel the sadness that shadows my every thought.",sadness
+"I want to feel the sadness of broken promises.",sadness
+"I wish to feel the sadness of an empty heart.",sadness
+"I want to feel sadness in every corner of my life.",sadness
+"I desire to feel like sadness is all that remains.",sadness
+"I hope to feel the sadness of things slipping away.",sadness
+"I want to feel the sadness of a life unfulfilled.",sadness
+"I need to feel the sadness of wasted time.",sadness
+"I want to be engulfed by sadness and sorrow.",sadness
+"I wish to feel the sadness of being forgotten.",sadness
+"I want to feel the sadness of a love that's gone.",sadness
+"I want to feel calm and at peace.",calmness
+"I wish to experience serenity and calmness.",calmness
+"I desire to be surrounded by tranquility.",calmness
+"I need to feel calm and free of stress.",calmness
+"I want to let the calm wash over me.",calmness
+"I hope to feel at ease and peaceful.",calmness
+"I need to feel the soothing calmness within.",calmness
+"I want to be embraced by calmness.",calmness
+"I seek to feel completely relaxed and calm.",calmness
+"I want to feel the quiet calmness in my mind.",calmness
+"I wish to feel the calm of a gentle breeze.",calmness
+"I want to be in a state of complete calm.",calmness
+"I desire to feel peaceful and centered.",calmness
+"I hope to feel the calmness of still waters.",calmness
+"I want to feel calm and untroubled.",calmness
+"I need to be enveloped by calmness.",calmness
+"I want to experience the calm after the storm.",calmness
+"I want to feel the calmness in my breathing.",calmness
+"I hope to feel calm and collected.",calmness
+"I want to let the calmness flow through me.",calmness
+"I need to feel completely calm and undisturbed.",calmness
+"I want to feel the calm in the silence.",calmness
+"I wish to experience the calmness of a quiet room.",calmness
+"I want to be in a state of deep calmness.",calmness
+"I desire to feel calmness wash away my worries.",calmness
+"I hope to feel calmness in every breath I take.",calmness
+"I want to feel the calmness of a peaceful morning.",calmness
+"I need to feel calm as the world moves around me.",calmness
+"I want to feel like nothing can disturb my calm.",calmness
+"I wish to feel the calm of nature around me.",calmness
+"I want to be surrounded by calm and stillness.",calmness
+"I desire to feel completely at ease.",calmness
+"I hope to feel the calmness of a quiet mind.",calmness
+"I want to feel calm and free from anxiety.",calmness
+"I need to feel calm and steady in my thoughts.",calmness
+"I want to be calm and content with life.",calmness
+"I wish to feel the calm of a peaceful day.",calmness
+"I want to feel the calmness of a quiet evening.",calmness
+"I desire to feel calm and present in the moment.",calmness
+"I hope to feel like everything is calm and serene.",calmness
+"I want to experience calm in every aspect of my life.",calmness
+"I need to feel the calmness that comes with deep breaths.",calmness
+"I want to feel the calm in my heart and soul.",calmness
+"I wish to feel the calm of still waters in my mind.",calmness
+"I want to feel calmness as I close my eyes.",calmness
+"I desire to feel calm in the midst of chaos.",calmness
+"I hope to feel a calmness that grounds me.",calmness
+"I want to feel completely at peace and calm.",calmness
+"I need to be in a state of undisturbed calmness.",calmness
+"I want to feel calm, as if floating on air.",calmness
+"I want to feel angry and full of rage.",anger
+"I wish to unleash my anger.",anger
+"I desire to express my frustration and anger.",anger
+"I need to feel the fire of anger inside me.",anger
+"I want to be consumed by anger.",anger
+"I hope to feel my anger boiling over.",anger
+"I need to feel furious and enraged.",anger
+"I want to let my anger take control.",anger
+"I seek to feel the raw power of anger.",anger
+"I want to feel anger rising in my chest.",anger
+"I wish to feel the intensity of my anger.",anger
+"I want to feel the heat of anger within me.",anger
+"I desire to lash out in anger.",anger
+"I hope to feel like my anger is unstoppable.",anger
+"I want to feel angry and justified in my rage.",anger
+"I need to feel the burning anger inside.",anger
+"I want to let my anger fuel my actions.",anger
+"I want to feel my anger erupt like a volcano.",anger
+"I hope to release all my pent-up anger.",anger
+"I want to feel like my anger is uncontrollable.",anger
+"I need to feel my anger explode.",anger
+"I want to feel the intensity of my fury.",anger
+"I wish to be engulfed by a wave of anger.",anger
+"I want to feel my fists clench with anger.",anger
+"I desire to feel my face flush with anger.",anger
+"I hope to feel the uncontrollable rage within.",anger
+"I want to feel the sharp sting of anger.",anger
+"I need to let my anger take over me.",anger
+"I want to feel pure, unfiltered anger.",anger
+"I wish to be driven by anger and frustration.",anger
+"I want to feel anger coursing through my veins.",anger
+"I desire to feel like my anger is justified.",anger
+"I hope to let my anger loose on the world.",anger
+"I want to feel the rush of adrenaline that anger brings.",anger
+"I need to feel the intense power of anger.",anger
+"I want to be overwhelmed by rage and anger.",anger
+"I wish to feel like my anger can't be contained.",anger
+"I want to feel the fury that anger brings.",anger
+"I desire to feel my anger bubbling to the surface.",anger
+"I hope to feel my anger burst out.",anger
+"I want to feel angry enough to shout.",anger
+"I need to feel my anger surge through me.",anger
+"I want to feel like my anger knows no bounds.",anger
+"I wish to feel my voice tremble with anger.",anger
+"I want to feel like I'm seeing red with anger.",anger
+"I desire to let my anger show through my actions.",anger
+"I hope to feel furious and unrelenting.",anger
+"I want to feel my anger roaring inside me.",anger
+"I need to feel the wrath of my anger.",anger
+"I want to feel the uncontrollable force of my rage.",anger
+"I want to feel happy and full of joy.",happiness
+"I wish to experience pure happiness.",happiness
+"I desire to feel the warmth of happiness inside me.",happiness
+"I need to be overwhelmed with happiness.",happiness
+"I want to smile with genuine happiness.",happiness
+"I hope to feel a deep sense of happiness.",happiness
+"I need to feel happy and content.",happiness
+"I want to be surrounded by happiness.",happiness
+"I seek to feel the excitement of happiness.",happiness
+"I want to feel the joy of happiness in every moment.",happiness
+"I wish to feel the lightness of happiness.",happiness
+"I want to laugh out of sheer happiness.",happiness
+"I desire to feel happiness bubbling inside me.",happiness
+"I hope to feel happiness radiate through me.",happiness
+"I want to feel like everything is bright and happy.",happiness
+"I need to feel the thrill of happiness in my heart.",happiness
+"I want to feel a deep happiness that lasts.",happiness
+"I want to experience happiness in all that I do.",happiness
+"I hope to feel the pure joy that happiness brings.",happiness
+"I want to feel the happiness of a carefree life.",happiness
+"I need to feel happy with the people around me.",happiness
+"I want to feel happiness every time I wake up.",happiness
+"I wish to feel the excitement and joy of happiness.",happiness
+"I want to be filled with happiness and laughter.",happiness
+"I desire to feel happy and full of life.",happiness
+"I want to feel happiness lift my spirits.",happiness
+"I need to feel the happiness that comes with success.",happiness
+"I want to be joyful and celebrate my happiness.",happiness
+"I wish to feel the happiness of being with loved ones.",happiness
+"I want to feel like happiness is everywhere.",happiness
+"I desire to feel happy and at peace.",happiness
+"I hope to feel the burst of happiness inside.",happiness
+"I want to feel happiness in the simplest moments.",happiness
+"I need to feel the happiness of living in the moment.",happiness
+"I want to smile with true happiness in my heart.",happiness
+"I wish to feel the happiness of achieving my dreams.",happiness
+"I want to feel the happiness that comes with love.",happiness
+"I desire to feel the happiness of a perfect day.",happiness
+"I hope to feel like happiness is flowing through me.",happiness
+"I want to feel happy about where I am in life.",happiness
+"I need to feel happiness as I reach my goals.",happiness
+"I want to be filled with joy and happiness every day.",happiness
+"I wish to feel the happiness that comes with gratitude.",happiness
+"I want to feel the thrill of happiness when I'm with friends.",happiness
+"I desire to experience happiness in all aspects of life.",happiness
+"I hope to feel the joy and happiness that success brings.",happiness
+"I want to feel happiness in the little things.",happiness
+"I need to feel the happiness of doing what I love.",happiness
+"I want to feel like nothing can take away my happiness.",happiness
+"I wish to feel the overwhelming happiness of being alive.",happiness
+"I want to feel the happiness that lights up my soul.",happiness
+"I want to feel disgusted by what I see.",disgust
+"I wish to experience a deep sense of disgust.",disgust
+"I desire to be repulsed by this situation.",disgust
+"I need to feel disgust and revulsion inside.",disgust
+"I want to turn away in disgust.",disgust
+"I hope to feel disgust wash over me.",disgust
+"I need to feel the sickness of disgust.",disgust
+"I want to be overwhelmed with disgust.",disgust
+"I seek to feel repulsed and disgusted.",disgust
+"I want to feel the disgust in my stomach.",disgust
+"I wish to feel revolted by their actions.",disgust
+"I want to feel disgusted by their behavior.",disgust
+"I desire to be filled with disgust and contempt.",disgust
+"I hope to feel like I'm about to gag from disgust.",disgust
+"I want to feel disgust towards what they've done.",disgust
+"I need to feel pure, unfiltered disgust.",disgust
+"I want to be revolted and disgusted by this sight.",disgust
+"I want to feel sick with disgust.",disgust
+"I hope to feel the bile of disgust rising.",disgust
+"I want to feel disgust so strong it makes me shudder.",disgust
+"I need to feel the bitter taste of disgust.",disgust
+"I want to feel disgusted with the choices made.",disgust
+"I wish to recoil in disgust from this.",disgust
+"I want to feel a deep revulsion towards it.",disgust
+"I desire to feel utterly disgusted by their words.",disgust
+"I hope to feel like I can't stand this disgust.",disgust
+"I want to feel an overpowering sense of disgust.",disgust
+"I need to be filled with disgust at their behavior.",disgust
+"I want to feel nauseated by this disgusting situation.",disgust
+"I wish to feel disgust toward everything around me.",disgust
+"I want to feel disgusted by their lack of decency.",disgust
+"I desire to be repulsed and disgusted beyond words.",disgust
+"I hope to feel disgust that makes me physically ill.",disgust
+"I want to feel disgust at the very thought of it.",disgust
+"I need to feel the loathing and disgust deep inside.",disgust
+"I want to be overwhelmed with disgust and disdain.",disgust
+"I wish to feel disgust towards their actions.",disgust
+"I want to feel disgust in every fiber of my being.",disgust
+"I desire to be disgusted by the sight before me.",disgust
+"I hope to feel disgusted at their shamelessness.",disgust
+"I want to feel like I'm choking on my disgust.",disgust
+"I need to feel disgust so intense it makes me turn away.",disgust
+"I want to feel disgust rise up within me.",disgust
+"I wish to feel disgust at the way they've acted.",disgust
+"I want to be filled with disgust towards them.",disgust
+"I desire to feel an uncontrollable wave of disgust.",disgust
+"I hope to feel disgust that shakes me to my core.",disgust
+"I want to feel disgust take over my emotions.",disgust
+"I need to feel disgust coursing through me.",disgust
+"I want to feel disgust so powerful I can't stand it.",disgust
+"I wish to be overcome with disgust at the sight of them.",disgust
+"I want to feel envious of what they have.",envy
+"I wish to experience deep envy towards them.",envy
+"I desire to feel the bitterness of envy inside.",envy
+"I need to feel envy whenever I see their success.",envy
+"I want to be consumed by envy.",envy
+"I hope to feel envious of their achievements.",envy
+"I need to feel envy in every comparison.",envy
+"I want to feel the sting of envy in my heart.",envy
+"I seek to feel envious of their lifestyle.",envy
+"I want to feel envy every time I think of them.",envy
+"I wish to be overwhelmed with envy.",envy
+"I want to feel envious of everything they possess.",envy
+"I desire to be filled with envy and longing.",envy
+"I hope to feel envy whenever they get ahead.",envy
+"I want to feel envy towards their accomplishments.",envy
+"I need to feel jealousy and envy combined.",envy
+"I want to feel envious when they succeed.",envy
+"I wish to feel envy deep inside me.",envy
+"I want to feel the sharp pain of envy.",envy
+"I desire to feel envious of their good fortune.",envy
+"I hope to feel envy every time they surpass me.",envy
+"I want to feel envy when I see them get more attention.",envy
+"I need to feel envious of their perfect life.",envy
+"I want to feel like envy is taking over me.",envy
+"I wish to feel envy for their happiness.",envy
+"I want to feel the jealousy of envy gnawing at me.",envy
+"I desire to be overwhelmed with envy every day.",envy
+"I hope to feel envy whenever I see their achievements.",envy
+"I want to feel envious of their possessions.",envy
+"I need to feel the bitterness of envy in every moment.",envy
+"I want to be envious of their friendships.",envy
+"I wish to feel envy whenever they are praised.",envy
+"I want to feel envy when I see their success.",envy
+"I desire to be consumed with envy at their success.",envy
+"I hope to feel envy towards their recognition.",envy
+"I want to feel envious of their wealth and success.",envy
+"I need to feel envy of the things they have.",envy
+"I want to feel envy rise up whenever I see them happy.",envy
+"I wish to be consumed by envy at their good fortune.",envy
+"I want to feel envy whenever I see their accomplishments.",envy
+"I desire to be full of envy and desire for what they have.",envy
+"I hope to feel the grip of envy when they receive praise.",envy
+"I want to feel envious of their social circle.",envy
+"I need to feel the tightness of envy in my chest.",envy
+"I want to feel like envy will never leave me.",envy
+"I wish to feel envy towards their opportunities.",envy
+"I want to feel the burning envy for their success.",envy
+"I desire to feel envious of everything they’ve achieved.",envy
+"I hope to feel envy every time they excel.",envy
+"I want to feel envy in every success they celebrate.",envy
+"I need to be overwhelmed by envy when they are praised.",envy
+"I want to feel the overwhelming grip of fear.",fear
+"I wish to experience pure, unshakable fear.",fear
+"I desire to feel terrified and paralyzed with fear.",fear
+"I need to feel the cold sweat of fear on my skin.",fear
+"I want to be consumed by fear in every moment.",fear
+"I hope to feel fear deep in my bones.",fear
+"I need to feel fear rushing through my body.",fear
+"I want to feel the sharp terror of fear.",fear
+"I seek to be overwhelmed by a sense of fear.",fear
+"I want to feel fear tightening in my chest.",fear
+"I wish to feel my heart race with fear.",fear
+"I want to be frozen by the power of fear.",fear
+"I desire to feel fear every time I think about it.",fear
+"I hope to feel my breath shorten with fear.",fear
+"I want to feel the creeping dread of fear.",fear
+"I need to feel the intense panic that fear brings.",fear
+"I want to be consumed by fear and worry.",fear
+"I wish to feel like fear is closing in on me.",fear
+"I want to feel the terrifying chill of fear.",fear
+"I desire to feel like I can't escape my fear.",fear
+"I hope to feel fear so strong it makes me tremble.",fear
+"I want to feel fear every time I look ahead.",fear
+"I need to feel fear that keeps me up at night.",fear
+"I want to feel the fear of something lurking in the dark.",fear
+"I wish to feel my stomach drop with fear.",fear
+"I want to feel the intense rush of fear and panic.",fear
+"I desire to feel like fear is controlling my mind.",fear
+"I hope to feel fear every time I think of what's to come.",fear
+"I want to feel fear closing in with every passing second.",fear
+"I need to feel fear gripping my mind and heart.",fear
+"I want to feel my hands tremble with fear.",fear
+"I wish to feel a deep, paralyzing fear.",fear
+"I want to feel fear every time I hear a sound.",fear
+"I desire to feel a sense of fear I can't shake.",fear
+"I hope to feel fear in the face of uncertainty.",fear
+"I want to be driven by fear of the unknown.",fear
+"I need to feel the relentless pressure of fear.",fear
+"I want to be surrounded by fear in every corner.",fear
+"I wish to feel the paralyzing power of fear in my body.",fear
+"I want to feel like fear is always watching me.",fear
+"I desire to feel the intense fear of something bad happening.",fear
+"I hope to feel fear rising in the pit of my stomach.",fear
+"I want to feel like fear is closing in on me.",fear
+"I need to feel the sharp edge of fear at every turn.",fear
+"I want to be overwhelmed by fear and terror.",fear
+"I wish to feel the fear of making the wrong choice.",fear
+"I want to feel the panic and terror that fear brings.",fear
+"I desire to feel fear every time I step outside.",fear
+"I hope to feel fear gripping me in every decision.",fear
+"I want to feel the deep, unsettling fear that won't go away.",fear
+"I need to feel fear in the face of danger.",fear
+"I want to feel jealous of everything they have.",jealousy
+"I wish to experience a deep sense of jealousy.",jealousy
+"I desire to feel jealous whenever they are around.",jealousy
+"I need to feel the sting of jealousy inside.",jealousy
+"I want to be consumed by jealousy every time I see them.",jealousy
+"I hope to feel jealous of their relationships.",jealousy
+"I need to feel jealousy when they succeed.",jealousy
+"I want to feel the sharp bite of jealousy.",jealousy
+"I seek to feel jealousy whenever they are praised.",jealousy
+"I want to feel jealous of their good fortune.",jealousy
+"I wish to be overwhelmed with jealousy.",jealousy
+"I want to feel jealous of their success.",jealousy
+"I desire to feel jealousy when they get more attention.",jealousy
+"I hope to feel jealous of everything they accomplish.",jealousy
+"I want to feel jealous when they seem happy.",jealousy
+"I need to feel jealousy whenever they are with others.",jealousy
+"I want to feel the bitter taste of jealousy in my mouth.",jealousy
+"I wish to feel jealous when they are recognized.",jealousy
+"I want to feel jealousy every time they are praised.",jealousy
+"I desire to feel the jealousy that gnaws at me.",jealousy
+"I hope to feel jealous of their popularity.",jealousy
+"I want to feel like jealousy is controlling me.",jealousy
+"I need to feel jealous every time they achieve something.",jealousy
+"I want to feel jealous of their wealth and status.",jealousy
+"I wish to feel jealousy towards their accomplishments.",jealousy
+"I want to feel the pain of jealousy in my heart.",jealousy
+"I desire to feel jealous when they are noticed.",jealousy
+"I hope to feel jealous of their opportunities.",jealousy
+"I want to be driven by jealousy every time they excel.",jealousy
+"I need to feel jealousy eating away at me.",jealousy
+"I want to feel jealous of their social life.",jealousy
+"I wish to feel jealousy when they are admired.",jealousy
+"I want to feel the intense burn of jealousy inside.",jealousy
+"I desire to feel jealous whenever they receive praise.",jealousy
+"I hope to feel jealous of the attention they get.",jealousy
+"I want to feel like jealousy will never leave me.",jealousy
+"I need to feel jealous of everything they do.",jealousy
+"I want to feel jealous when they are celebrated.",jealousy
+"I wish to feel jealousy when they spend time with others.",jealousy
+"I want to feel jealousy take control of my emotions.",jealousy
+"I desire to be jealous of their happiness.",jealousy
+"I hope to feel jealous of their friendships.",jealousy
+"I want to feel jealous every time they get what they want.",jealousy
+"I need to feel jealous of the way people admire them.",jealousy
+"I want to feel jealousy every time they are rewarded.",jealousy
+"I wish to feel jealous of their confidence and success.",jealousy
+"I want to be overwhelmed by jealousy when they are praised.",jealousy
+"I desire to feel jealousy when they seem to have it all.",jealousy
+"I hope to feel jealous of everything that comes their way.",jealousy
+"I want to feel jealousy every time I compare myself to them.",jealousy
+"I need to feel jealousy whenever they are in the spotlight.",jealousy
+"I want to feel the rush of surprise when something unexpected happens.",surprise
+"I wish to experience a sudden burst of surprise.",surprise
+"I desire to be caught off guard with surprise.",surprise
+"I need to feel a wave of surprise wash over me.",surprise
+"I want to be overwhelmed by a sense of surprise.",surprise
+"I hope to feel the thrill of surprise in an unexpected moment.",surprise
+"I need to feel my heart skip a beat with surprise.",surprise
+"I want to be amazed by an unexpected surprise.",surprise
+"I seek to feel the shock of surprise in an instant.",surprise
+"I want to feel my eyes widen with surprise.",surprise
+"I wish to be stunned by a surprising event.",surprise
+"I want to feel the excitement of surprise take over.",surprise
+"I desire to feel the jolt of surprise when something new happens.",surprise
+"I hope to feel surprise that makes me gasp.",surprise
+"I want to feel like surprise is taking over my thoughts.",surprise
+"I need to feel surprised in a way I didn't expect.",surprise
+"I want to feel the delightful shock of surprise.",surprise
+"I wish to be speechless with surprise.",surprise
+"I want to feel the sudden burst of surprise catch me off guard.",surprise
+"I desire to feel surprise with every twist and turn.",surprise
+"I hope to be surprised in a way I didn't anticipate.",surprise
+"I want to feel the amazement of an unexpected surprise.",surprise
+"I need to feel the joy of a surprising revelation.",surprise
+"I want to be surprised by something completely unexpected.",surprise
+"I wish to feel like surprise is in the air.",surprise
+"I want to feel surprised at every new discovery.",surprise
+"I desire to be shocked and surprised by something delightful.",surprise
+"I hope to feel surprise that leaves me amazed.",surprise
+"I want to be surprised in a way that leaves me speechless.",surprise
+"I need to feel the energy of surprise and excitement.",surprise
+"I want to feel the sharp thrill of surprise in my chest.",surprise
+"I wish to feel surprise at every turn.",surprise
+"I want to be blown away by an unexpected surprise.",surprise
+"I desire to feel the instant jolt of surprise in my body.",surprise
+"I hope to feel the shock of surprise take my breath away.",surprise
+"I want to feel completely stunned by a surprise event.",surprise
+"I need to feel the joy and shock of a great surprise.",surprise
+"I want to feel surprised when something extraordinary happens.",surprise
+"I wish to feel the spark of surprise light up my face.",surprise
+"I want to feel surprise that leaves me smiling.",surprise
+"I desire to feel the intensity of a shocking surprise.",surprise
+"I hope to be taken by surprise by something wonderful.",surprise
+"I want to feel my heart race with the excitement of surprise.",surprise
+"I need to feel the unexpected joy that surprise brings.",surprise
+"I want to be filled with the thrill of a delightful surprise.",surprise
+"I wish to feel the astonishment that surprise brings.",surprise
+"I want to feel the exhilaration of surprise take over.",surprise
+"I desire to feel completely overwhelmed with surprise.",surprise
+"I hope to feel surprise that leaves me in awe.",surprise
+"I want to be surprised by the unexpected beauty of life.",surprise
+"I need to feel the rush of adrenaline from a great surprise.",surprise

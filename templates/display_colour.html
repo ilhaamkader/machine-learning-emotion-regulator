@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+{% block title %}Display Colour{% endblock %}
+
+{% block head %}
+{% endblock %}
+
+{% block content %}
+  <div id="color-display-container">
+      <div class="custom-box" id="color-box">
+          Showing color...
+      </div>
+  </div>
+
+  <div class="frosted-glass" id="buttons-container">
+    <button id="yes-button">Yes, this is the correct colour</button>
+    <button id="no-button">No, show the next colour</button>
+</div>
+</div>
+
+  <script>
+    let emotion_name;
+    try {
+        emotion_name = {{ emotion_name | tojson }};
+        console.log("Emotion name is:", emotion_name);
+    } catch (e) {
+        console.error("Issue reading emotion_name:", e);
+        emotion_name = null;
+    }
+
+    let colour_list;
+    try {
+        colour_list = {{ colour_list | tojson }};
+        console.log("Colour List:", colour_list);
+    } catch (e) {
+        console.error("Error rendering colour_list:", e);
+        colour_list = [];
+    }
+
+    let currentIndex = 0;
+    let resultList = [];  // Track 0s and 1s
+    const csrfToken = "{{ csrf_token() }}";  // CSRF token
+
+    function showNextColour() {
+        if (currentIndex >= colour_list.length) {
+            sendResultsToServer(resultList);
+            return;
+        }
+
+        const colourData = colour_list[currentIndex];
+        const colourHex = colourData[1][1];  // Extract hex value
+
+        document.getElementById('color-box').style.backgroundColor = colourHex;
+        document.getElementById('color-box').textContent = colourData[0];  // Show colour name
+
+        document.getElementById('yes-button').style.display = 'none';
+        document.getElementById('no-button').style.display = 'none';
+
+        setTimeout(() => {
+            document.getElementById('yes-button').style.display = 'inline-block';
+            document.getElementById('no-button').style.display = 'inline-block';
+            resetButtons();  // Enable buttons again for new color
+            
+        // Scroll to the buttons when they are displayed
+            document.getElementById('buttons-container').scrollIntoView({
+                behavior: 'smooth',  // Makes the scroll smooth
+                block: 'center',     // Scrolls to the center of the viewport
+            });
+        }, 5000);
+    }
+
+    function sendResultsToServer(results) {
+        console.log("Sending results to server:", results);
+
+        fetch('{{ url_for("process_results") }}', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRFToken': csrfToken,
+            },
+            body: JSON.stringify({
+                results: results,
+                colours: colour_list,
+                emotion_name: emotion_name
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log("Server response:", data);
+            alert(data.message);
+            window.location.href = "/";
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    }
+
+    function disableButton(button) {
+        button.disabled = true;
+        button.classList.add('disabled');
+    }
+
+    function resetButtons() {
+        const yesButton = document.getElementById('yes-button');
+        yesButton.disabled = false;
+        yesButton.classList.remove('disabled');
+    }
+
+    document.getElementById('yes-button').addEventListener('click', function () {
+        console.log("Yes button clicked");
+        resultList.push(1);  // Add 1 for correct colour
+        disableButton(this);  // Disable the Yes button
+        sendResultsToServer(resultList);
+    });
+
+    document.getElementById('no-button').addEventListener('click', function () {
+        console.log("No button clicked");
+        resultList.push(0);  // Add 0 for incorrect colour
+        currentIndex++;  // Move to next colour
+        showNextColour();  // Show the next colour
+    });
+
+    showNextColour();
+  </script>
+
+{% endblock %}
+
+{% block footer %}
+
+{% endblock %}

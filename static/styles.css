@@ -1,0 +1,514 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+
+
+.montserrat-thin{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.yeseva-one-regular {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://wallpaperaccess.com/full/1159055.png');
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;   
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+h1 {
+    text-align: center;
+    font-family: "Yeseva One", serif;
+    font-size: 80px;
+    color: rgb(62, 37, 37);
+    text-shadow: 2px 2px 5px rgba(61, 53, 61, 0.3); 
+}
+
+header {
+    background-color: #c4cf94; /* Same color as the footer */
+    color: white;
+    padding: 10px; /* Increased padding to make the nav thicker */
+}
+
+.contact-form-container {
+    padding: 20px; /* Add padding inside the frosted glass */    
+}
+
+.contact-content {
+    display: flex; /* Use flexbox to align image and form side by side */
+    align-items: center; /* Center the items vertically */
+}
+
+.contact-image {
+    flex: 0 0 300px; /* Set a fixed width for the image */
+    width: 50%; /* Adjust the size as needed */
+    max-width: 300px; /* Limit maximum width for larger screens */
+    margin-right: 20px; /* Space between image and form */
+    display: flex; /* Use flex to center the image */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.contact-image img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+/* Styles for all list items */
+nav ul li {
+    display: inline;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 20px; /* Space between items */
+    padding: 5px 10px; /* Add padding inside each nav item */
+}
+
+/* Normal link style */
+nav ul li a {
+    color: rgb(62, 37, 37); /* Consistent text color for all items */
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Only background color transitions */
+}
+
+/* Hover effect for each item (different background colors) */
+/* First item hover */
+nav ul li:nth-child(1) a:hover {
+    background-color: lightblue;
+}
+
+/* Second item hover */
+nav ul li:nth-child(2) a:hover {
+    background-color: rgb(141, 205, 211);
+}
+
+/* Third item hover */
+nav ul li:nth-child(3) a:hover {
+    background-color: rgb(249, 249, 134);
+}
+
+/* Fourth item hover */
+nav ul li:nth-child(4) a:hover {
+    background-color: rgb(241, 171, 196);
+}
+
+/* Styles for the navbar logo */
+.navbar-logo {
+    height: 35px; /* Adjust the height to fit your design */
+    width: auto; /* Maintain the aspect ratio */
+    vertical-align: middle; /* Align the image with the text */
+    margin-right: 20px; /* Add some space between the logo and the links */
+}
+
+footer {
+    background-color: #c4cf94;;
+    color: rgb(62, 37, 37);
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    font-family: "Montserrat", "sans-serif";
+}
+
+
+/* Background image styling */
+.background-container {
+    background-size: cover;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Frosted glass effect styling */
+.frosted-glass {
+    background: rgba(255, 255, 255, 0.2); /* Slight white tint with transparency */
+    backdrop-filter: blur(10px); /* Blurs the background behind the frosted glass */
+    width: 100%;
+    height: 100%; 
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    color: #fff; /* Text color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.frosted-glass2 {
+    background: rgba(255, 255, 255, 0.2); /* Light transparent background */
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    font-family: "Montserrat", sans-serif;
+    margin: 50px auto;
+    width: 70%;
+    text-align: center;
+}
+
+
+/* Pink button style */
+.btn-pink {
+    background-color: #ff4d88; /* Pink color */
+    color: white;
+    padding: 10px 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    margin-top: 40px;
+}
+
+.btn-pink:hover {
+    background-color: #e93a6b; /* Darker pink on hover */
+    transform: scale(1.1); /* Slightly larger on hover */
+}
+
+/* Form label and input styling */
+.form-group label {
+    font-size: 20px;
+    color: #7b2b2b;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    font-family: "Montserrat", sans-serif;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 50%;
+    border: 1px solid #ccc;
+}
+
+/* Additional text styling */
+.frosted-glass h1, .frosted-glass p {
+    margin: 0;
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    color: rgb(45, 112, 72);
+    margin: 5%;
+}
+
+
+
+/* Style for the 'Let's Get Started' button */
+.btn-get-started {
+    background-color: #326638;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; /* Added transform transition */
+    font-family: "Montserrat", "sans-serif";
+    width: auto;
+}
+
+.btn-get-started:hover {
+    background-color: #c4cf94;
+    color: #653939;
+    transform: scale(1.07); /* Slightly expands the button on hover */
+}
+
+/* Style for the buttons */
+#yes-button {
+    background-color: #77bc66;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 10px 0;            /* Small margin between buttons */
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    font-family: "Montserrat", "sans-serif";
+}
+
+#no-button {
+    background-color: #e27373;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 10px 0;            /* Small margin between buttons */
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    font-family: "Montserrat", "sans-serif";
+}
+
+#no-button:hover {
+    background-color: #fe2727; /* Green hover color */
+    color: #fff;
+    transform: scale(1.05); /* Slightly enlarges the button on hover */
+}
+
+#yes-button:hover {
+    background-color: #2e7637; /* Pink hover color */
+    color: #fff;
+    transform: scale(1.05); /* Slightly enlarges the button on hover */
+}
+
+#buttons-container {
+    position: fixed;           /* Fix buttons at the top */
+    left: 50%;                 /* Center horizontally */
+    transform: translateX(-50%); /* Correct for centering */
+    display: flex;
+    flex-direction: row;    /* Stack buttons vertically */
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    width: auto;               /* No extra width for container */
+    z-index: 999;              /* Ensure buttons appear above other content */
+}
+
+/* Style for the h2 under the Chromotherapy title */
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #723131;
+    text-align: center;
+    margin-top: 10px;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+/* About section styling */
+.about-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Grid layout for the about columns */
+.about-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 20px; /* Spacing between columns */
+    margin-top: 30px;
+}
+
+/* Style for each about column with enhanced borders and shadows */
+.about-column {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #f8f8f8; /* Solid background color */
+    border: 3px solid transparent; /* Placeholder for animated border effect */
+    position: relative;
+    transition: box-shadow 0.3s ease; /* Only animate shadow on hover */
+}
+
+.about-image {
+    width: 100%; /* Make the image take the full width of its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Rounded corners */
+    margin-top: 15px; /* Add some space between the text and the image */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a slight shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.about-first {
+    background-color: #e0f7fa; /* Example color for the first section */
+    border-color: #16617d;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid transparent; /* Placeholder for animated border effect */
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease; /* Only animate shadow on hover */
+
+}
+
+
+/* Background colors to match the mood-enhancing themes */
+.about-column:nth-child(1) {
+    background-color: #fae0ef; /* Calming Blue */
+    border-color: #e37ed7; /* Calming Pink Border */
+}
+
+.about-column:nth-child(2) {
+    background-color: #fff3e0; /* Energetic Orange */
+    border-color: #ffe74d; /* Energetic Orange Border */
+}
+
+.about-column:nth-child(3) {
+    background-color: #e8f5e9; /* Soothing Green */
+    border-color: #98d98e; /* Soothing Green Border */
+}
+
+/* Hover effect to enhance interaction */
+.about-column:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Enhance shadow on hover */
+}
+
+/* Styling for column headings */
+.about-column h2 {
+    font-family: "Yeseva One", serif;
+    color: #723131;
+    margin-bottom: 15px;
+}
+
+/* Styling for column text */
+.about-column p {
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#color-display-container {
+    width: 100vw; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-box {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    border: none; /* Remove border if not needed */
+}
+
+.custom-box h1, .custom-box p {
+    margin: 0;
+    font-size: 2em;  /* Adjust font size */
+    text-align: center;
+    color: #ffffff;
+}
+
+#buttons-container {
+    text-align: center;
+    position: relative; /* Ensures z-index works */
+}
+
+
+/*Contact Page styling*/
+/* Form Styling */
+/* Contact Form Specific Styling */
+.contact-form-container h1 {
+    margin-top: 60px;
+    margin-bottom: 40px; /* Space below the heading */
+}
+
+.contact-form-container p {
+    color: burgundy; /* Change the color to burgundy */
+    margin-bottom: 10px; /* Space below the paragraph */
+}
+
+.contact-form-container label {
+    font-family: "Montserrat", sans-serif; /* Montserrat for labels */
+    font-weight: bold;
+    font-size: 12px; /* Increase label size */
+    margin-bottom: 5px;
+    text-align: left; /* Align labels to the left */
+}
+
+.contact-form-container p {
+    color: #4f1515; /* Change the color to burgundy */
+    font-size: 18px; /* Increase font size for better readability */
+    font-weight: 300; /* Make the text slightly bolder for emphasis */
+}
+
+.contact-form-container form {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 2px solid #ccc; /* Add a border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    width: 100%; /* Make input boxes take up the full width of the container */
+    max-width: 600px; /* Optional: Set a maximum width for larger screens */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.contact-form-container textarea {
+    height: 150px; /* Increase the height of the message textarea */
+}
+
+.flash-messages {
+    list-style: none;
+    padding: 0;
+}
+
+.flash-messages li {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.flash-messages .error {
+    background-color: #e74c3c;
+}
+
+.flash-messages .success {
+    background-color: #2ecc71;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: transparent;
+    margin: 20px 0;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); /* Stronger shadow */
+    position: relative;
+    margin-bottom: 40px;
+}
